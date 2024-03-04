@@ -1,0 +1,16 @@
+{
+    "name": "hexlet/example",
+    "description": "example package",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Example\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anastasiya Velibegova",
+            "email": "nastya.velibegova@mail.ru"
+        }
+    ],
+    "require": {}
+}
