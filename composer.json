@@ -2,6 +2,9 @@
     "name": "hexlet/example",
     "description": "example package",
     "autoload": {
+        "files": [
+            "src/Runner.php"
+        ],
         "psr-4": {
             "Hexlet\\Example\\": "src/"
         }
@@ -12,5 +15,10 @@
             "email": "nastya.velibegova@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.52"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
 }
